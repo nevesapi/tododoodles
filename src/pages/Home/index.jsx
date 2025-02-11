@@ -44,7 +44,7 @@ export default function Home() {
             placeholder="Digite seu email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="mb-3 h-9 rounded-sm border-0 bg-white text-zinc-600 placeholder:px-3 placeholder:text-zinc-500"
+            className="mb-3 h-9 rounded-sm border-0 bg-white px-3 text-zinc-600 placeholder:text-zinc-500"
           />
 
           <input
@@ -54,7 +54,7 @@ export default function Home() {
             placeholder="***********"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="mb-3 h-9 rounded-sm border-0 bg-white text-zinc-600 placeholder:px-3 placeholder:text-zinc-500"
+            className="mb-3 h-9 rounded-sm border-0 bg-white px-3 text-zinc-600 placeholder:text-zinc-500"
           />
           <button className="h-9 cursor-pointer rounded-sm bg-blue-700 text-lg text-white transition-all hover:bg-blue-800">
             Login

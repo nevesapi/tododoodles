@@ -54,7 +54,6 @@ export default function Admin() {
             });
           });
 
-          console.log(lista);
           setTarefas(lista);
         });
       }
@@ -110,7 +109,6 @@ export default function Admin() {
   async function handleEditTask(item) {
     setTaskInput(item.tarefa);
     setEditTask(item);
-    console.log(item);
   }
 
   async function handleUpdateTask() {
