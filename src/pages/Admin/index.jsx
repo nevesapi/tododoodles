@@ -55,6 +55,7 @@ export default function Admin() {
           });
 
           setTarefas(lista);
+          console.log(lista);
         });
       }
     }
@@ -96,7 +97,7 @@ export default function Admin() {
     await signOut(auth);
   }
 
-  //Funão de deletar/concluir task
+  //Função de deletar/concluir task
   async function handleDeleteTask(id) {
     const docRef = doc(db, "tasks", id);
 
